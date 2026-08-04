@@ -1,11 +1,11 @@
 # --- Dados de login ---
 usuario = "admin"
-senha = "1234senha"
+senha = "senha1234"
 tentativas = 2
 usuario_bloqueado = False
 
 # --- Credenciais corretas (simulando um "banco de dados") ---
-usuario_correto = "admin"
+usuario_correto = "adminn"
 senha_correta = "senha1234"
 
 # --- Validação inicial ---
