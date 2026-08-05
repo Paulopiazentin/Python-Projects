@@ -5,7 +5,7 @@ idade = 32
 
 # --- Validação inicial ---
 if peso <= 0 or altura <= 0:
-    print("Erro: peso e altura devem ser valores positivos.")
+    print("Erro0: peso e altura devem ser valores positivos.")
 
 else:
     # --- Cálculo do IMC ---
