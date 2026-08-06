@@ -28,7 +28,7 @@ else:
     # --- Condição aninhada: recomendação varia com idade ---
     if classificacao == "Peso normal":
         if idade >= 60:
-            recomendacao = "Manter hábitos saudáveis e fazer check-ups regulares"
+            recomendacao = "Manter hábitos saudáveis "
         else:
             recomendacao = "Manter a rotina atual de alimentação e exercícios"
     else:
