@@ -19,11 +19,11 @@ else:
     elif imc < 30:
         classificacao = "Sobrepeso"
     elif imc < 35:
-        classificacao = "Obesidade Grau I"
+        classificacao = "Obesidade Grau 1"
     elif imc < 40:
-        classificacao = "Obesidade Grau II"
+        classificacao = "Obesidade Grau 2"
     else:
-        classificacao = "Obesidade Grau III"
+        classificacao = "Obesidade Grau 3"
 
     # --- Condição aninhada: recomendação varia com idade ---
     if classificacao == "Peso normal":
@@ -38,7 +38,7 @@ else:
             recomendacao = "Buscar orientação de nutricionista e educador físico"
 
     # --- Operadores lógicos ---
-    if classificacao in ("Obesidade Grau II", "Obesidade Grau III") and idade >= 45:
+    if classificacao in ("Obesidade Grau 2", "Obesidade Grau 3") and idade >= 45:
         alerta_saude = True
     else:
         alerta_saude = False
