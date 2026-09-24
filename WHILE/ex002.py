@@ -18,4 +18,4 @@ while tentativas < max_tentativas and not acertou:
         print("O número secreto é menor. Tente de novo!")
 
 if not acertou:
-    print(f"Suas tentativas acabaram. O número era {numero_secreto}.")
+    print(f"Suas tentativas acabaram. O número era {numero_secreto}. ja era!")
